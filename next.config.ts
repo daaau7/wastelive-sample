@@ -1,8 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  assetPrefix: 'https://wastelive-sample.vercel.app',
+  output: 'export',
+  assetPrefix: '/',
   images: {
+    unoptimized: true,
     dangerouslyAllowSVG: true,
     remotePatterns: [
       {
@@ -12,7 +14,6 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'gateway.pinata.cloud',
-        port: '',
         pathname: '/ipfs/**',
       },
     ],
