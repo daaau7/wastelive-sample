@@ -7,7 +7,7 @@ if (!projectId) throw new Error('Project ID is not defined')
 
 export const wagmiAdapter = new WagmiAdapter({
   storage: createStorage({ storage: cookieStorage }),
-  ssr: true,
+  ssr: false,
   projectId,
   networks: [somniaTestnet],
 })

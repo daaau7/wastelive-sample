@@ -19,7 +19,6 @@ const metadata = {
   icons: ['https://avatars.githubusercontent.com/u/179229932']
 }
 
-// Create the appkit instance
 const appkit = createAppKit({
   adapters: [wagmiAdapter],
   projectId,
