@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  assetPrefix: 'https://wastelive-sample.vercel.app',
   images: {
     dangerouslyAllowSVG: true,
     remotePatterns: [
