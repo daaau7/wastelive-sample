@@ -15,7 +15,7 @@ if (!projectId) throw new Error('Project ID is not defined')
 const metadata = {
   name: 'AppKit Example',
   description: 'AppKit Example',
-  url: 'http://localhost:3000',
+  url: 'https://wastelive-sample.vercel.app/',
   icons: ['https://avatars.githubusercontent.com/u/179229932']
 }
 
